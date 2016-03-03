@@ -1,0 +1,7 @@
+Tipo Abstrato de Dados(ou TAD): É um conjunto de tipos de dados mais concretos. Por exemplo, a TAD "Data" é composta pelos int's "dia", "mês" e "ano".
+
+Classe: É um conceito estático que representa um modelo abstrato, ou seja, um conjunto de atributos e métodos abstratos.
+
+Objeto: É uma instância de uma classe, tendo valores dinâmicos para seus atributos e uso para seus métodos.
+
+Mensagem: É uma saída da compilação do programa em forma de texto, que é apresentada para o usuário, como o valor de um atributo que é apresentado após o uso de um método Get().
