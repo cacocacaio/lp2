@@ -1,0 +1,1 @@
+Float e Double deram o valor de 0.75 para a divisão igualmente, enquanto o Int arredondava este valor para 0. Os outros resultados, soma, multiplicação e subtração, não tinham números após a vírgula, então eram igual para Int, Float e Double.
