@@ -9,14 +9,18 @@ public class ContaBancaria2{
 	public void imprimirSaldo(){
 		System.out.println("O saldo da conta é: " + saldo);
 	}
+	
 	public void imprimirSaldoTotal(){	
 	}
+	
 	public void imprimirAgencia(){
 		System.out.println("A agencia é: " + agencia);
 	}
+	
     public void imprimirContaCorrente(){
 		System.out.println("A conta-corrente é: " + contaCorrente);	
 	}
+	
 	public void imprimirTitular(){
 		System.out.println("O titular da conta é: " + titularConta);	
 	}	
