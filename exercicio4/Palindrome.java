@@ -11,8 +11,8 @@ public class Palindrome{
 	public String findPalin(String pal){
 		String inverso = new String(invertePal(pal));
 		//Primeira comparação, antes de começar a fazer uma varredura no argumento
-		if ( pal.equals(inverso) == true ){
-			return pal;
+		if ( pal.equals(inverso) == true && pal.length()>=5){
+			return pal + "\nPosição: 0 - "  + pal.length();
 		}else{
 			//Varredura agora. stringCortada é a uma substring do argumento de entrada, que será usada para fazer a varredura do argumento
 			String stringCortada = new String(pal);
@@ -21,7 +21,7 @@ public class Palindrome{
 					stringCortada = pal.substring(j, j+i);
 					inverso = invertePal(stringCortada);
 					if ( stringCortada.equals(inverso) == true ){
-						return stringCortada;
+						return stringCortada + "\nPosição: " + j + " - " + (j+i);
 					}else{
 					}
 				}
